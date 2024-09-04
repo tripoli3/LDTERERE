@@ -22,3 +22,7 @@
 .w-60 {
   width: 60% !important; /* !important를 사용하여 Bootstrap의 기본 스타일을 우선시 */
 }
+.footer-container {
+  background-color: rgb(83, 83, 144);
+  font-color: white;
+}

@@ -10,3 +10,15 @@
 .cta-section {
   background-color: rgb(72, 72, 106);
 }
+.story {
+  background-color: rgb(244, 237, 237);
+}
+.font-small {
+  font-size: 12px;
+}
+.no-margin {
+  margin: 0;
+}
+.w-60 {
+  width: 60% !important; /* !important를 사용하여 Bootstrap의 기본 스타일을 우선시 */
+}

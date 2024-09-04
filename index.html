@@ -131,40 +131,83 @@
           </button>
         </div>
       </section>
-      <section class="story py-5 bg-secondary">
-        <div classs="container ">
+      <!-- 고객들의 이야기 -->
+      <section class="story py-5">
+        <div class="container">
           <h2 class="text-center mb-5">고객들의 이야기</h2>
           <div class="container">
             <div class="row">
               <div class="col">
                 <div class="border border-black">
-                  <p>
+                  <p class="no-margin">
                     "FutureTech의 솔루션 덕분에 우리 회사의 생산성이 30%
-                    향상되었습니다. 정말 놀라운 결과였죠!" <br />-김철수, A기업
-                    CEO
+                    향상되었습니다. 정말 놀라운 결과였죠!"
+                  </p>
+                  <p class="font-small fw-lighter no-margin">
+                    -김철수, A기업 CEO
                   </p>
                 </div>
               </div>
               <div class="col">
                 <div class="border border-black">
-                  <p>
+                  <p class="no-margin">
                     "FutureTech와 함께 일하면서 우리는 글로벌 시장에 성공적으로
-                    진출할 수 있었습니다." <br />-이영희, B기업 마케팅 이사
+                    진출할 수 있었습니다."
+                  </p>
+                  <p class="font-small fw-lighter no-margin">
+                    -이영희, B기업 마케팅 이사
                   </p>
                 </div>
               </div>
               <div class="col">
                 <div class="border border-black">
-                  <p>
+                  <p class="no-margin">
                     "FutureTech의 AI 솔루션은 우리 고객 서비스의 품질을
                     획기적으로 개선시켰습니다."
-
-                    <br />-박지성, C기업 CTO
+                  </p>
+                  <p class="font-small fw-lighter no-margin">
+                    -박지성, C기업 CTO
                   </p>
                 </div>
               </div>
             </div>
           </div>
+        </div>
+      </section>
+      <!-- 문의하기 섹션 -->
+      <section class="ask py-5">
+        <div class="container">
+          <h2 class="text-center mb-5">문의하기</h2>
+          <form class="col-8 mx-auto">
+            <div class="mb-3 center">
+              <input
+                type="text"
+                class="form-control"
+                id="exampleInputname"
+                placeholder="이름"
+              />
+            </div>
+            <div class="mb-3">
+              <input
+                type="email"
+                class="form-control"
+                id="exampleInputEmail"
+                aria-describedby="emailHelp"
+                placeholder="이메일"
+              />
+            </div>
+            <div class="mb-3">
+              <textarea
+                class="form-control"
+                id="exampleInputMessage"
+                rows="8"
+                placeholder="메시지"
+              ></textarea>
+            </div>
+            <div class="text-center">
+              <button type="submit" class="btn btn-primary">보내기</button>
+            </div>
+          </form>
         </div>
       </section>
     </main>

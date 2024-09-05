@@ -1,5 +1,5 @@
 .hero {
-  background: linear-gradient(135deg, rgb(78, 78, 191), green);
+  background: linear-gradient(135deg, #6c63ff, #4caf50);
   color: white;
   padding: 100px 0;
 }
@@ -23,5 +23,5 @@
   width: 60% !important; /* !important를 사용하여 Bootstrap의 기본 스타일을 우선시 */
 }
 .footer-container {
-  background-color: rgb(83, 83, 144);
+  background-color: #2c3e50;
 }

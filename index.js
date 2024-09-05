@@ -41,6 +41,31 @@ submitFormEl.addEventListener('click', handleSave);
 
 // messageEl.addEventListener('change', handleInputChange3);
 
+// 메인화면 보내기
+
+const footerSubmitFormEl = document.querySelector('#footerSubmitForm');
+
+const footernameEl = document.querySelector('[name="footerName"]');
+const footeremailEl = document.querySelector('[name="footerEmail"]');
+const footermessageEl = document.querySelector('[name="footerMessage"]');
+
+const handleSave2 = (event) => {
+  console.log(event);
+  event.preventDefault(); // 폼 제출 시 페이지 리로드 방지
+  if (footernameEl.value && footeremailEl.value && footermessageEl.value) {
+    console.log('Form values:', {
+      name: footernameEl.value,
+      email: footeremailEl.value,
+      message: footermessageEl.value,
+    });
+  } else {
+    console.log('Form validation failed');
+  }
+};
+
+footerSubmitFormEl.addEventListener('click', handleSave2);
+
+// CHAP GPT 참조 //
 // document.addEventListener('DOMContentLoaded', function () {
 //   const submitButton = document.getElementById('submitForm');
 
